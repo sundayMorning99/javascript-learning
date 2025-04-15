@@ -33,7 +33,7 @@ const iveMemberArray = ['yujin', 'andrew', 'eliana'];
 
 for (let key in iveMemberArray){
     console.log(key);
-    console.log('${key}:${iveMemberArray[key]}');
+    console.log(`${key}:${iveMemberArray[key]}`);
 }
 
 //while
