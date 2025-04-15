@@ -23,7 +23,7 @@ console.log(multiply2(3,4));
 const multiply3 = (x,y) => x*y;
 
 
-//if one variable
+//if one variable, you can skip ()
 const multiply4 = x =>x*2;
 console.log(multiply4(2)); //returns 4
 
@@ -31,12 +31,12 @@ console.log(multiply4(2)); //returns 4
 function multiply5(x){
     return function(y){
         return function(z){
-            return 'x:${x} y:${y} z:${z}'  //template literal
+            return `x:${x} y:${y} z:${z}`  //template literal
         }
     }
 }
 
-const multiply5 = x => y => z => 'x:${x} y:${y} z:${z}';
+const multiply5 = x => y => z => `x:${x} y:${y} z:${z}`;
 
 console.log(multiply5(3)(4)(5));
 
