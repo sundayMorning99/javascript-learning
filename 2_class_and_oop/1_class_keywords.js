@@ -11,7 +11,7 @@ class IdolMode{
 
     //method - action
     sayName(){
-        return 'hello my name is ${name} .';
+        return `hello my name is ${name} .`;
     }
 }
 
