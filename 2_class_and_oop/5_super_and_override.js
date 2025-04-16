@@ -25,7 +25,7 @@ class FemaleIdolModel extends IdolModel{
 
     //${super,name} would set undefined in Javascript.
     sayHello(){
-        return 'hello ${this.name}. ${this.part} is my part.';
+        return `hello ${this.name}. ${this.part} is my part.`;
     }
 }
 
