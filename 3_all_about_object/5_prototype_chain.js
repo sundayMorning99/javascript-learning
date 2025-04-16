@@ -7,7 +7,7 @@ function IdolModel(name, year){
 }
 
 IdolModel.prototype.sayHello = function(){
-    return 'Hello, my name is ${this.name}.'; 
+    return `Hello, my name is ${this.name}.`; 
 }
 
 const yujin = new IdolModel('yujin', 2003);
