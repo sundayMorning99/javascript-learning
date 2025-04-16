@@ -9,7 +9,7 @@ class IdolModel {
 
     //get keyword -> you can use dot method. nameAndYear, not nameAndyear()
     get nameAndYear(){
-        return '${this.name}-${this.year}';
+        return `${this.name}-${this.year}`;
     }
 
     //set keyword 
