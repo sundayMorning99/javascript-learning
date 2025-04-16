@@ -23,7 +23,7 @@ console.log(returnName.call(yujin3)); //yujin
 console.log(returnName.apply(yujin3)); //yujin
 
 function multiply(x,y,z){
-    return '${this.name} / result: ${x*y*z}';
+    return `${this.name} / result: ${x*y*z}`;
 }
 
 console.log(multiply.call(yujin3, 3,4,5));
